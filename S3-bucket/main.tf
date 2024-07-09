@@ -1,7 +1,7 @@
 
 #My s3 bucket
 resource "aws_s3_bucket" "mybucket" {
-  bucket = var.bu
+  bucket = var.bucketname
 
 }
 
